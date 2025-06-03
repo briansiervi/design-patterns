@@ -1,0 +1,44 @@
+target/
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+*.log
+*.jar
+*.war
+*.ear
+*.class
+*.swp
+*.swo
+*.tmp
+*.bak
+*.orig
+*.DS_Store
+# Eclipse specific
+.metadata/
+# IntelliJ specific
+.idea/
+# NetBeans specific
+nbproject/private/
+# Maven specific
+.mvn/
+# Gradle specific
+.gradle/
+# Build directories
+build/
+# Dependency directories
+lib/
+# OS generated files
+Thumbs.db
+.DS_Store
+# Logs
+logs/
+# Coverage reports
+coverage/
+# Temporary files
+tmp/
+# Backup files
+*.bak
+# IDE specific files
+*.iml

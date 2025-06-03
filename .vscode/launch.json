@@ -1,0 +1,77 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Client",
+      "request": "launch",
+      "mainClass": "br.com.cod3r.abstractfactory.app.service.Client",
+      "projectName": "CreationalPatterns"
+    },
+    {
+      "type": "java",
+      "name": "Client(1)",
+      "request": "launch",
+      "mainClass": "br.com.cod3r.abstractfactory.apple.Client",
+      "projectName": "CreationalPatterns"
+    },
+    {
+      "type": "java",
+      "name": "Client(2)",
+      "request": "launch",
+      "mainClass": "br.com.cod3r.builder.meal.Client",
+      "projectName": "CreationalPatterns"
+    },
+    {
+      "type": "java",
+      "name": "Client(3)",
+      "request": "launch",
+      "mainClass": "br.com.cod3r.factory.app.dbadapter.Client",
+      "projectName": "CreationalPatterns"
+    },
+    {
+      "type": "java",
+      "name": "Client(4)",
+      "request": "launch",
+      "mainClass": "br.com.cod3r.factory.apple.Client",
+      "projectName": "CreationalPatterns"
+    },
+    {
+      "type": "java",
+      "name": "Client(5)",
+      "request": "launch",
+      "mainClass": "br.com.cod3r.prototype.animation.Client",
+      "projectName": "CreationalPatterns"
+    },
+    {
+      "type": "java",
+      "name": "Client(6)",
+      "request": "launch",
+      "mainClass": "br.com.cod3r.prototype.deepShallow.Client",
+      "projectName": "CreationalPatterns"
+    },
+    {
+      "type": "java",
+      "name": "Client(7)",
+      "request": "launch",
+      "mainClass": "br.com.cod3r.prototype.functionalCloneBuilder.Client",
+      "projectName": "CreationalPatterns"
+    },
+    {
+      "type": "java",
+      "name": "Client(8)",
+      "request": "launch",
+      "mainClass": "br.com.cod3r.singleton.connectionPool.Client",
+      "projectName": "CreationalPatterns"
+    }
+  ]
+}

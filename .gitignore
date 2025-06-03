@@ -42,3 +42,4 @@ tmp/
 *.bak
 # IDE specific files
 *.iml
+*.code-workspace

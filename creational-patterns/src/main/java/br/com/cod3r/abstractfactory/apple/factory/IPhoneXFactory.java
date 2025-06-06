@@ -4,6 +4,7 @@ import br.com.cod3r.abstractfactory.apple.factory.abstractFactory.CountryRulesAb
 import br.com.cod3r.abstractfactory.apple.model.iphone.IPhone;
 import br.com.cod3r.abstractfactory.apple.model.iphone.IPhoneX;
 import br.com.cod3r.abstractfactory.apple.model.iphone.IPhoneXSMax;
+import br.com.cod3r.factory.enums.IPhoneLevelEnum;
 
 public class IPhoneXFactory extends IPhoneFactory {
 
@@ -12,11 +13,12 @@ public class IPhoneXFactory extends IPhoneFactory {
 	}
 
 	public IPhone createIPhone(String level) {
-		if(level.equals("standard")) {
+		if (level.equals(IPhoneLevelEnum.STANDARD.getLevel())) {
 			return new IPhoneX(rules);
-		} else if(level.equals("highEnd")) {
+		} else if (level.equals(IPhoneLevelEnum.HIGH_END.getLevel())) {
 			return new IPhoneXSMax(rules);
-		} else return null;
+		} else
+			return null;
 	}
 
 }

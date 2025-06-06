@@ -3,9 +3,9 @@ package br.com.cod3r.factory.apple.factory;
 import br.com.cod3r.factory.apple.model.IPhone;
 
 public abstract class IPhoneFactory {
-  public IPhone orderIPhone() {
+  public IPhone orderIPhone(String level) {
     IPhone device = null;
-    device = createIPhone();
+    device = createIPhone(level);
     device.getHardware();
     device.assemble();
     device.certificates();
@@ -13,5 +13,5 @@ public abstract class IPhoneFactory {
     return device;
   }
 
-  protected abstract IPhone createIPhone();
+  protected abstract IPhone createIPhone(String level);
 }
